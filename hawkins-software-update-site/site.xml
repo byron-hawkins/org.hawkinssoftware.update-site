@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
+   <description name="HawkinsSoftware">
+      Eclipse features from HawkinsSoftware.
+   </description>
+   <feature url="features/rns.feature_0.1.1.qualifier.jar" id="rns.feature" version="0.1.1.qualifier">
+      <category name="rns"/>
+   </feature>
+   <category-def name="rns" label="Role Normalization and Synthesis"/>
 </site>

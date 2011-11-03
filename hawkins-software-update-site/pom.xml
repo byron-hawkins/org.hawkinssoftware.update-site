@@ -1,7 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.hawkinssoftware</groupId>
+  
   <artifactId>hawkins-software-update-site</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>eclipse-update-site</packaging>
+  
+  <parent>
+  	<groupId>org.hawkinssoftware</groupId>
+  	<artifactId>hawkins-software-platform</artifactId>
+  	<version>0.1.1-SNAPSHOT</version>
+  	<relativePath>../../platform/hawkins-software-platform</relativePath>
+  </parent>
+  
 </project>
